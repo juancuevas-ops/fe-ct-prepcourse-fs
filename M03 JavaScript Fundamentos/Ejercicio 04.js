@@ -37,22 +37,41 @@ console.log("El cubo de " + numero + " es " + resultadoCubo);
 function elevar(_num, _exponent) {
    // Retorna el valor de "num" elevado al exponente "exponent".
    // Tu código:
+return Math.pow(_num, _exponent);
 }
+var resultado = elevar(2, 3); //  estimados Esta funcion elevará 2 a la potencia de 3, lo que devuelve 8.
+console.log(resultado); // Imprimirá 8 en la consola.
 
 function redondearNumero(_num) {
    // Redondea "num" al entero más próximo y retórnalo.
    // Tu código:
+   return Math.round(_num);
 }
+var numero = 8.7;
+var resultado = redondearNumero(numero); // redondearemos 8.7 al entero más cercano, que es 5.
+console.log(resultado); // 9 en la consola.
+
 
 function redondearHaciaArriba(num) {
    // Redondea "num" hacia arriba y retórnalo.
    // Tu código:
+   return Math.ceil(num);
 }
+var numero = 9.3;
+var resultado = redondearHaciaArriba(numero);
+console.log(resultado); //debe imprimir 10
+
+
 
 function numeroRandom() {
    // Genera un número al azar entre 0 y 1 y retórnalo.
    // Tu código:
+   return Math.random();  
+
 }
+var numero = numeroRandom();
+console.log(numero); 
+
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
 module.exports = {
