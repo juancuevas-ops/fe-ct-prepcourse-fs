@@ -4,12 +4,12 @@
 function devolverString() {
    // Debe retornar un string.
    // Tu código:
-   return "¡Hola, esto es  un string!";
+   return ("¡Hola, esto es  un string!");
 }
 
 // Ejemplo 
-const miString = devolverString();
-console.log(miString);
+//const miString = devolverString();
+//console.log(miString);
 
 
 
@@ -19,10 +19,10 @@ function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
 
-   return X + y;
+   return x + y;
 }
-   const resultado = suma(5,3);
-   console.log(resultado);
+   //const resultado = suma(5,3);
+   //console.log(resultado);
 
 
 function resta(x, y) {
@@ -32,17 +32,17 @@ function resta(x, y) {
    
    
 }
-  const Resultado = resta(5,3);
-  console.log(Resultado);
+  //const Resultado = resta(5,3);
+  //console.log(Resultado);
 
 function divide(x, y) {
    // Retorna el resultado de su división.
    // Tu código:
    return x / y;
 }
-   x =  6                     
-   y = 2
-   console.log(divide);
+  // x =  6                     
+  // y = 2
+  // console.log(divide);
 
 
 function multiplica(x, y) {
@@ -50,8 +50,8 @@ function multiplica(x, y) {
    // Tu código:
    return x * y;
 }
- const res= multiplica(5*2);
- console.log(res);
+ //const res= multiplica(5*2);
+ //console.log(res);
 
 
 
@@ -62,8 +62,8 @@ function obtenerResto(x, y) {
 }
 
 // Ejemplo 
-const resultado2 = obtenerResto(10, 3); // Obtiene el resto de la división de 10 entre 3
-console.log(resultado2); 
+//const resultado2 = obtenerResto(10, 3); // Obtiene el resto de la división de 10 entre 3
+//console.log(resultado2); 
 
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
