@@ -132,7 +132,7 @@ function esVocal(letra) {
    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
    // Si no es vocal, tambien debe retornar "Dato incorrecto".
    // Tu código:
-   // Verificamos si la entrada es una cadena de un solo carácter
+   
   if (typeof letra === "string" && letra.length === 1) {
     // Convertimos la letra a minúsculas para hacer una comparación sin distinción de mayúsculas y minúsculas
     letra = letra.toLowerCase();
@@ -147,6 +147,7 @@ function esVocal(letra) {
     return "Dato incorrecto";
   }
 }
+
 
 
 

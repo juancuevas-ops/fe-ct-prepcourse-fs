@@ -4,12 +4,11 @@
 function devolverString() {
    // Debe retornar un string.
    // Tu código:
-   return ("¡Hola, esto es  un string!");
+   return "Este es un string de ejemplo";
 }
 
-// Ejemplo 
-//const miString = devolverString();
-//console.log(miString);
+
+
 
 
 
