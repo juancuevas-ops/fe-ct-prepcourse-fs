@@ -3,14 +3,14 @@
 function devolverPrimerElemento(array) {
    // Retornar el primer elemento del arreglo recibido por parámetro.
    // Tu código:
-   if (array.length > 0) {
-      // primer elemento del arreglo
-      return array[0];
-   } else {
-      // si está vacío (puedes retornar undefined o cualquier otro valor predeterminado)
-      return undefined;
-   }
-}
+   if (array.length === 0) {
+      return undefined; // Manejo de arreglo vacío
+    }
+    return array[0];
+  }
+
+
+
 
 
 function devolverUltimoElemento(array) {
@@ -182,25 +182,54 @@ function diaDeLaSemana(numeroDeDia) {
    // Realiza una función que, dado el número del día de la semana, retorne: "Es fin de semana"
    // si el día corresponde a "Sábado" o "Domingo", y "Es dia laboral" en caso contrario.
    // Tu código:
-   if (numeroDeDia === 1 || numeroDeDia === 7) {
-      return ("Es fin de semana");
-   } else {
-      return ("Es día laboral");
-   }
+   const diasSemana = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+  const dia = diasSemana[numeroDeDia - 1];
+  
+  if (dia === "Sábado" || dia === "Domingo") {
+    return "Es fin de semana";
+  } else {
+    return "Es dia laboral";
+  }
 }
 
 
-
+  
 function empiezaConNueve(num) {
    // Esta función recibe por parámetro un número.
    // Debe retornar true si el entero inicia con 9 y false en otro caso.
    // Tu código:
-   // Convertir el número en una cadena
-   const numStr = num.toString();
+   //function empiezaConNueve(num) {
+    //  const numStr = num.toString();
+    //  return numStr.startsWith('9');
+    
 
-   // Verificar si la cadena comienza con "9"
-   return numStr.charAt(0) === "9";
+const numStr = num.toString();
+if (numStr.startsWith('9')) {
+  return true;
+} else {
+  return false;
 }
+}
+
+
+   
+ 
+
+ 
+ //console.log(empiezaConNueve(98)); // Devuelve true
+ //console.log(empiezaConNueve(123)); // Devuelve false
+
+  
+
+
+  
+   
+   
+      
+   
+
+   
+
 
 
 function todosIguales(array) {
@@ -227,6 +256,8 @@ function todosIguales(array) {
 
 
 
+
+
 function mesesDelAño(array) {
    // El arreglo contiene algunos meses del año desordenados. Debes recorrerlo, buscar los meses "Enero",
    // "Marzo" y "Noviembre", guardarlos en un nuevo arreglo y retornarlo.
@@ -247,6 +278,7 @@ function mesesDelAño(array) {
       return "No se encontraron los meses pedidos";
    }
 }
+
 
 
 
@@ -325,6 +357,9 @@ function continueStatement(num) {
 
    return resultados;
 }
+
+
+
 
 
 
