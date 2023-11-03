@@ -1,10 +1,10 @@
 /*⚠️ NO MODIFIQUES EL NOMBRE DE LAS DECLARACIONES ⚠️*/
 /*2️⃣ EJERCICIO 02 2️⃣*/
 
-function devolverString() {
+function devolverString(str) {
    // Debe retornar un string.
    // Tu código:
-   return "Este es un string de ejemplo";
+   return str;
 }
 
 
@@ -12,7 +12,8 @@ function devolverString() {
 
 
 
-// ⛔️ "X" e "Y" son números.
+
+//  "X" e "Y" son números.
 
 function suma(x, y) {
    // Retorna el resultado de su suma.
